@@ -1,0 +1,23 @@
+.bg-info {
+    background-color: rgb(52, 165, 218) !important;
+} 
+
+a {
+    color: rgb(52, 165, 218) !important;
+}
+
+a.about-link {
+    color: lightcyan !important;
+}
+
+a.about-link:hover {
+    color: lightblue !important;
+}
+
+section#heading {
+    margin: 2em 0;
+}
+
+img#logo {
+    margin-bottom: 1em;
+}
