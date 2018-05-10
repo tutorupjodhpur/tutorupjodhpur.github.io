@@ -20,6 +20,8 @@ a.about-link:hover {
 
 img#logo {
     margin-bottom: 1em;
+    max-width: 446px;
+    width: 100%;
 }
 
 img.muted {
@@ -27,7 +29,8 @@ img.muted {
 }
 
 section.heading-container {
-    width: 446px;
+    width: 100%;
+    max-width: 446px;
     height: 150px;
     margin-top: 2em; 
     margin-bottom: 2em;
@@ -40,14 +43,26 @@ div.logo-container,
 div.title-container {
     left: 0;
     top: 0;
-    width: 446px;
-    height: 150px;
+    width: 100%;
+    max-width: 446px;
     position: absolute;
+    text-align: center;
+}
+
+div.logo-container {
+    height: 150px;
 }
 
 div.title-container {
-    padding-top: 1em;
+    display: table;
+    height: 105px;
+    text-align: center;
     z-index: 10;
+}
+
+div.title-container > h1 {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 div.weighted {
@@ -73,11 +88,15 @@ div.resource-description {
 }
 
 h1.page-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 img.fit {
     width: 100%;
+}
+
+img.rounded {
+  border-radius: 10px;
 }
 
 img.people {
