@@ -104,3 +104,7 @@ img.people {
     box-shadow: 3px 3px 3px gray;
     width: 100%;
 }
+
+.twitter-mention-button {
+  margin-bottom: -2px;
+}
