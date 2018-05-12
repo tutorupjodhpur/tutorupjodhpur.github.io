@@ -10,12 +10,17 @@ html {
     margin:0;
 }
 
+.red {
+    color: rgb(255, 67, 90) !important;
+}
+
 .bg-info {
     background-color: rgb(52, 165, 218) !important;
 } 
 
 a {
-    color: rgb(52, 165, 218) !important;
+    /* color: rgb(52, 165, 218) !important; */
+    color: rgb(46, 147, 193) !important;
 }
 
 a.about-link {
@@ -24,6 +29,18 @@ a.about-link {
 
 a.about-link:hover {
     color: lightblue !important;
+}
+
+a.color-meetup {
+    color: rgb(255, 67, 90) !important;
+}
+
+a.color-github {
+    color: black !important;
+}
+
+a.no-underline {
+    text-decoration: none;
 }
 
 img#logo {
@@ -123,15 +140,4 @@ h1.page-title {
 
 .skills > h6 {
     margin-bottom: 0;
-}
-
-a.color-meetup {
-    color: rgb(255, 67, 90) !important;
-}
-
-a.color-github {
-    color: black !important;
-}
-
-.color-slack {
 }
