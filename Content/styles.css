@@ -2,6 +2,10 @@ html {
     overflow-y: scroll;
 }
 
+.center {
+    text-align: center;
+}
+
 .no-margin {
     margin:0;
 }
@@ -30,6 +34,20 @@ img#logo {
 
 img.muted {
     opacity: 0.15;
+}
+
+img.fit {
+    width: 100%;
+}
+
+img.rounded {
+  border-radius: 10px;
+}
+
+img.people {
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    width: 100%;
 }
 
 section.heading-container {
@@ -69,6 +87,12 @@ div.title-container > h1 {
     vertical-align: middle;
 }
 
+div.feedback {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    height: 3em;
+}
+
 div.weighted {
     display: flex;
     align-items: flex-end;
@@ -88,25 +112,8 @@ div.resource-icon {
     margin-bottom: 1.5em;
 }
 
-div.resource-description {
-}
-
 h1.page-title {
     font-size: 3.5rem;
-}
-
-img.fit {
-    width: 100%;
-}
-
-img.rounded {
-  border-radius: 10px;
-}
-
-img.people {
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px gray;
-    width: 100%;
 }
 
 .twitter-mention-container {
@@ -116,4 +123,15 @@ img.people {
 
 .skills > h6 {
     margin-bottom: 0;
+}
+
+a.color-meetup {
+    color: rgb(255, 67, 90) !important;
+}
+
+a.color-github {
+    color: black !important;
+}
+
+.color-slack {
 }
