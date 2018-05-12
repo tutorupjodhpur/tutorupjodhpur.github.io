@@ -115,12 +115,20 @@ div.weighted {
     align-items: flex-end;
 }
 
+div.event-question {
+    margin-bottom: 1em;
+}
+
 div.person-blurb {
     margin-bottom: 2em;
 }
 
 div.resource-box {
     margin-bottom: 1em;
+}
+
+div.sponsor-row {
+    margin-bottom: 2em;
 }
 
 div.resource-icon {
