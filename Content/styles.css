@@ -2,6 +2,10 @@ html {
     overflow-y: scroll;
 }
 
+.no-margin {
+    margin:0;
+}
+
 .bg-info {
     background-color: rgb(52, 165, 218) !important;
 } 
@@ -105,6 +109,11 @@ img.people {
     width: 100%;
 }
 
-.twitter-mention-button {
-  margin-top: 0.65em;
+.twitter-mention-container {
+  padding-top: 2px;
+  height: 1.6em !important;
+}
+
+.skills > h6 {
+    margin-bottom: 0;
 }
