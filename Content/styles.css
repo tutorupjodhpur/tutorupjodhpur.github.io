@@ -114,6 +114,10 @@ div.feedback {
     min-height: 3em;
 }
 
+div.feedback > div.pad-top {
+    padding-top: 0.5em;
+}
+
 div.sponsored-by {
   margin-top: 1em;
   margin-bottom: 1em;
