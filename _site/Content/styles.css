@@ -14,6 +14,10 @@ html {
     color: rgb(255, 67, 90) !important;
 }
 
+.pb-4, .py-4 {
+    padding-bottom: 0 !important;
+}
+
 .bg-info {
     background-color: rgb(52, 165, 218) !important;
 } 
@@ -109,9 +113,19 @@ div.pad-top {
 }
 
 div.feedback {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    height: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-height: 3em;
+}
+
+div.feedback > div.pad-top {
+    padding-top: 0.5em;
+}
+
+div.sponsored-by {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  min-height: 3em;
 }
 
 div.weighted {
