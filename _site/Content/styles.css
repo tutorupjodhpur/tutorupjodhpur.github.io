@@ -112,14 +112,14 @@ div.pad-top {
   padding-top: 0.5em;
 }
 
-div.feedback {
+div.intro {
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2.0em;
     min-height: 3em;
 }
 
-div.feedback > div.pad-top {
-    padding-top: 0.5em;
+div.intro > div.pad-top {
+    padding-top: 0.7em;
 }
 
 div.sponsored-by {
